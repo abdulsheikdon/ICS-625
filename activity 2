@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema version="1.0"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://metrostate.edu/ICS/courses"
+    xmlns:c="http://metrostate.edu/ICS/courses"
+    elementFormDefault="qualified">
+
+    <xs:simpleType name="statusType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Offered"/>
+            <xs:enumeration value="Not Offered"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="courseType">
+        <xs:sequence>
+            <xs:element name="courseID" type="xs:integer"/>
+            <xs:element name="subject" type="xs:string"/>
+            <xs:element name="status" type="c:statusType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="coursesType">
+        <xs:sequence>
+            <xs:element name="course" type="c:courseType"
+                        minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:element name="courses" type="c:coursesType"/>
+</xs:schema>
