@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<gradebook> 
+    <exam-count>3</exam-count> 
+    <student> 
+        <name>Homer Simpson</name> 
+        <exams> 
+            <exam>79</exam> 
+            <exam>80</exam> 
+            <exam>55</exam> 
+        </exams> 
+    </student> 
+    <student> 
+        <name>Marge Simpson</name> 
+        <exams> 
+            <exam>89</exam> 
+            <exam>80</exam> 
+            <exam>77</exam> 
+        </exams> 
+    </student> 
+    <student> 
+        <name>Bart Simpson</name> 
+        <exams> 
+            <exam>60</exam> 
+            <exam>80</exam> 
+            <exam>40</exam> 
+        </exams> 
+    </student> 
+</gradebook> 
