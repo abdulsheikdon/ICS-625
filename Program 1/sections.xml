@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="sections.xsl"?>
+<Sections xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="sections.xsd">
+    
+    <Section>
+        <Number>01</Number>
+        <Course>
+            <Id>000204</Id>
+            <Number>ICS 140</Number>
+            <Title>Computational Thinking</Title>
+        </Course>
+        <Instructor>
+            <First>Mousumi</First>
+            <Last>Munmun</Last>
+        </Instructor>
+        <DateRange>
+            <StartDate>2023-08-21</StartDate>
+            <EndDate>2023-12-04</EndDate>
+        </DateRange>
+        <Capacity>32</Capacity>
+        <Enrolled>1</Enrolled>
+        <Days>M</Days>
+        <Times>01:00PM - 04:20PM</Times>
+        <Location>
+            <Building>SJH</Building>
+            <Room>L11</Room>
+        </Location>
+        <Credits>4</Credits>
+        <Status>Open</Status>
+    </Section>
+    
+    <Section>
+        <Number>02</Number>
+        <Course>
+            <Id>000205</Id>
+            <Number>ICS 140</Number>
+            <Title>Computational Thinking</Title>
+        </Course>
+        <Instructor>
+            <First>Farris</First>
+            <Last>Hassan</Last>
+        </Instructor>
+        <DateRange>
+            <StartDate>2023-08-22</StartDate>
+            <EndDate>2023-11-28</EndDate>
+        </DateRange>
+        <Capacity>32</Capacity>
+        <Enrolled>3</Enrolled>
+        <Days>T</Days>
+        <Times>06:00PM - 09:20PM</Times>
+        <Location>
+            <Building>SJH</Building>
+            <Room>L11</Room>
+        </Location>
+        <Credits>4</Credits>
+        <Status>Open</Status>
+    </Section>
+    
+    <Section>
+        <Number>01</Number>
+        <Course>
+            <Id>000207</Id>
+            <Number>ICS 141</Number>
+            <Title>Problem Solving Programming</Title>
+        </Course>
+        <Instructor>
+            <First>Cheng</First>
+            <Last>Thao</Last>
+        </Instructor>
+        <DateRange>
+            <StartDate>2023-08-21</StartDate>
+            <EndDate>2023-12-04</EndDate>
+        </DateRange>
+        <Capacity>32</Capacity>
+        <Enrolled>5</Enrolled>
+        <Days>M</Days>
+        <Times>01:00PM - 04:20PM</Times>
+        <Location>
+            <Building>SEC</Building>
+            <Room>121</Room>
+        </Location>
+        <Credits>4</Credits>
+        <Status>Open</Status>
+    </Section>
+    
+</Sections>

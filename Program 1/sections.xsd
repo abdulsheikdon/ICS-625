@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    
+    <xs:element name="Sections">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Section" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Number" type="xs:string" />
+                            <xs:element name="Course">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Id" type="xs:string" />
+                                        <xs:element name="Number" type="xs:string" />
+                                        <xs:element name="Title" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Instructor">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="First" type="xs:string"/>
+                                        <xs:element name="Last" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="DateRange">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="StartDate" type="xs:date" />
+                                        <xs:element name="EndDate" type="xs:date" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Capacity" type="xs:integer" />
+                            <xs:element name="Enrolled" type="xs:integer" />
+                            <xs:element name="Days" type="xs:string" />
+                            <xs:element name="Times" type="xs:string" />
+                            <xs:element name="Location">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Building" type="xs:string" />
+                                        <xs:element name="Room" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Credits" type="xs:decimal" />
+                            <xs:element name="Status" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+</xs:schema>
